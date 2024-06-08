@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma to HTML Converter</title>
+    <link rel="stylesheet" href="FigmaToHTML.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Figma2HTML</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Home</a></li>
+                    <li><a href="#testimonials">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#upload" class="cta">Upload Figma File</a>
+        </div>
+    </header>
+    <main>
+        <section id="upload">
+            <div class="container">
+                <h2>Convert Your Figma File to HTML</h2>
+                <p>Upload your Figma design file and get a high-quality, responsive HTML page.</p>
+                <form action="/convert" method="post" enctype="multipart/form-data">
+                    <br>
+                    <input type="file" require id="input-button">
+                    <button type="submit">Convert</button>
+                </form>
+            </div>
+        </section>
+        <section id="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="features-grid">
+                    <div class="feature">
+                        <h3>Responsive Design</h3>
+                        <p>Our tool ensures your HTML page looks great on all devices.</ </div>
+                        <div class="feature">
+                            <h3>Clean Code</h3>
+                            <p>Get well-structured and maintainable HTML and CSS code.</p>
+                        </div>
+                        <div class="feature">
+                            <h3>Fast Conversion</h3>
+                            <p>Quickly convert your Figma designs with minimal effort.</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id="testimonials">
+            <div class="container">
+                <br>    
+                <h2>Figma2HTML Manual</h2>
+                <div class="testimonial">
+                    <p>Upload the Figma File and by clicking Choose File button</p>
+                </div>
+                <div class="testimonial">
+                    <p>Press the Convert button</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-lists">
+                <h1 class="logo">
+                    <img src="assets/logo.png" alt="">
+                    <img src="assets/Vector.png" alt="">
+                </h1>
+                <ul class="info-1">
+                    <li class="info">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>praveen@gmail.com.com</p>
+
+                    </li>
+                    <li class="info">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+1234 456 678 89</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-lists">
+                <h1>Links</h1>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Bookings</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="footer-lists">
+                <h1>Legal</h1>
+                <ul>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                </ul>
+            </div>
+            <div class="footer-lists">
+                <h1>Product</h1>
+                <ul>
+                    <li>Fig to HTML</li>
+                    <li>jpg to svg</li>
+                    <li>png to jpg</li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div class="footer-copyright">Copyright 2024 fig2html.com All Rights Reserved</div>
+    </div>
+</body>
+
+</html>
